@@ -1,0 +1,316 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+    /* Navbar */
+
+
+
+nav .navbar-btn{
+     margin-left: 20px ;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 0px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+nav ul li:first-child{
+    margin-left: 0;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hero Section */
+
+.hero-section {
+    background-color: rgb(41, 120, 255);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.hero-section .container {
+    max-width: 1080px;
+    margin: 0 auto;/*Center horizontally*/
+    padding:0 20px;/*optional padding on the sides*/
+}
+.yellow{
+    background-color: rgb(153, 212, 232);
+}
+
+
+
+/* Search Btn */
+
+.buttonIn {
+    position: relative;
+}
+
+.search-input {
+     padding:50px; 
+     width:300px; 
+    border:1px solid #ccc;
+    border-radius: 50px;
+    font-size:16px;
+    text-align: center;
+    
+}
+.search-options{
+    display:flex;
+    align-items:center;
+    width: 500px;
+    padding:50px;
+    height: 500px;
+    color: #ccc;
+}
+.box-cell{
+    background-color: #e5eefd;
+    color: rgb(0, 97, 208);
+    display: inline;
+    padding: 5px;
+    margin-right: 10px; /* Horizontal spacing */
+    margin-bottom: 10px; /* Vertical spacing */
+    text-align: center;
+}
+.search-icon {
+    display:inline-block;
+    padding:10px;
+    background-color:#e5eefd;
+    color:#d0fffd;
+    border-radius:5px;
+    cursor:pointer;
+    text-align: center;
+}
+.search-input{
+    padding:10px;
+    width:300px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:16px;
+    text-align: center;
+}
+
+.box1 {
+    background-color: #e5eefd;
+    color: rgb(0, 97, 208);
+    display:inline;
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    
+
+}
+
+.box2 {
+    background-color: #e5eefd;
+    color: #ff4545;
+    display:inline;
+    padding:5px;
+    margin-right: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.box3 {
+    background-color: #d0fffd;
+    color: rgb(0, 141, 0);
+    display:inline;
+    padding:5px;
+    margin-right: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* Common CSS */
+.btn {
+    color: white;
+    background-color: grey;
+    border: none;
+    text-transform: capitalize;
+    margin-left: 3px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.bg-gray {
+    background-color: grey;
+}
+
+.bg-green {
+    background-color: rgb(0, 142, 9);
+}
+
+
+.para2 {
+    color: white;
+    font-size: x-large;
+    padding: 40pX;
+    height: 60px;
+    width: 70px;
+    display: inline;
+
+}
+.para3{
+    color:white;
+    margin-left: 55%;
+    font-size: x-large;
+    padding: 70px;
+    height: 60px;
+    width: 70px;
+    display: inline;
+    margin-top: 20%;
+    
+
+}
+.white2{
+    font-weight:bold;
+    color:white;
+    vertical-align: middle;
+    margin-top: 2%;
+    text-align: center;
+
+}
+p{
+    color:black;
+    margin:10px 0;
+}
+h1, .container {
+    margin-top: 20px;
+    margin-bottom: 10px; 
+    font-style: bold;
+    font-size: small;
+    background-color: #0071D0;
+    
+
+
+}
+h1, .para1 {
+    color:#0071D0;
+    margin-right:20px;
+    font-style: bold;
+    font-size: x-large;
+    text-align:center ;
+
+}
+
+
+.vocabulary-box{
+    background-color: white;
+    padding:40px;
+    border:1px solid lightskyblue;
+    border-radius:5px;
+    text-align: center;
+    max-width:400px;
+    margin:60px 20px 0 0;
+    display:flex;
+    flex-direction: column;
+
+
+}
+.paragraph {
+    color: black;
+}
+h3 {
+    color: blue;
+    font-size: 24px;
+}
+
+.dictionary-heading{
+    color:blue;
+    font-size:24px;
+    margin-left: 60%;
+    margin-top: 1%;
+}
+.dictionary-text{
+    color:black;
+    padding:10px;
+    border-radius:5px;
+    text-align:right;
+    margin-left:-20% ;
+    margin-top: 1%;
+    font-size: medium;
+    justify-content: center;
+    
+}
+.dictionary-content{
+        padding: 50px;
+        margin-left: 50%;
+         margin-top: -20%;
+      
+        
+ }
+
+ .image {
+    margin-left: 40%;
+    margin-top: -10%;
+ }
+ .learn-more-box {
+    background-color: #0071D0;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline;
+    margin-left: 60%;
+    cursor: pointer;
+    margin-top:30%;
+ }
+.centered-box{
+    text-align: center;
+
+}
+for-everyone-box {
+    background-color: #e5eefd;
+    color: rgb(0, 97, 208);
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+.lookup {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #0071D0;
+}
+.lookup h1{
+    font-size: 24px;
+    color:white;
+    margin:0;
+    padding:0;
+    font-weight: bold;
+}
+header{
+    display:block;
+    background-color: #0071D0;
+}
+
+.lightblue{
+    background-color: rgb(105, 186, 236);
+}
+
+
+
+
