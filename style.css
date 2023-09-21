@@ -1,0 +1,340 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color:darkblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 200px;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 100px;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.login-button {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.signup-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.heading {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-left: -500px;
+    
+}
+
+.heading h1 {
+    font-size: 28px; 
+    margin: 0;
+}
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 100px; /* Adjust the margin as needed */
+}
+
+.search-input {
+    width: 800px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    display:block;
+    color:white;
+ 
+}
+
+.search-button {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display:block;
+}
+
+.search-button i {
+    font-size: 20px;
+}
+.headings {
+    text-align: left;
+    margin-left: 20px;
+    background-color: darkblue;
+}
+
+.Advanced-Search, .Random-Word {
+    color: white;
+    font-size:16px;
+    display: inline-block;
+    margin: 5px;
+    margin-left: 100px;
+}
+.slanted-heading {
+    background-color: lightblue;
+    text-align: left;
+    padding: 20px;
+    margin-top: 20px; 
+    margin-bottom: 40px; 
+    margin-left: -20px;
+    padding-left: 40px;
+    background-color: lightblue;
+    
+}
+.light{
+    background-color: lightblue;
+}
+
+.looking-for {
+    color:white;
+    font-size: 16px;
+    margin-left: 100px;
+}
+.headings {
+    text-align: left;
+    margin-right: 40px; /* Align the headings to the left */
+}
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 20px;
+    margin-top: -60px;
+}
+
+.box {
+    flex: 0.9;
+    padding: 20px;
+    text-align: center;
+    margin:0 10px;
+    border-radius: 30px;
+}
+
+.light-purple {
+    background-color:lightskyblue;
+}
+
+.light-red {
+    background-color: lightcoral;
+}
+
+.light-green {
+    background-color: lightgreen;
+}
+
+.box h3 {
+    font-weight: bold;
+    margin: 0;
+}
+.block {
+    background-color: lightblue; /* Set the background color to light blue */
+    padding: 20px;
+}
+.light-blue-text {
+    color: darkblue;
+}
+.light-red-text{
+    color:red;
+}
+.light-green-text{
+    color:darkgreen
+}
+.light-blue-text strong {
+    font-weight: bold;
+    color:darkblue;
+}
+.light-red-text strong {
+    font-weight: bold;
+    color:red;
+}
+.light-blue-text strong {
+    font-weight: bold;
+    color:darkgreen;
+}
+everyone-heading {
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+everyone-box {
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block; /* Display as an inline block */
+    padding: 5px 10px; /* Adjust padding to make it smaller */
+    margin-top: 10px; /* Adjust margin as needed */
+    
+}
+
+
+.everyone-heading {
+    color: lightblue;
+    font-size: 16px;
+    margin: 0 10px;
+    text-align: center;
+    background-color: white;
+}
+.white{
+    background-color: white;
+
+}
+.dark{
+    background-color: darkblue;
+}
+.light{
+    background-color: lightblue;
+}
+.left-box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+
+
+.vocabulary-box {
+    background-color: white; /* Background color for the Vocabulary box */
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    width:200px;
+    height:150px;
+    border:2px solid darkblue;
+    margin-left: 10px;
+}
+
+
+.vocabulary-heading {
+    color: darkblue; /* Text color for the heading */
+    font-size: 18px; /* Adjust font size as needed */
+    margin: 0;
+}
+
+
+.vocabulary-paragraph {
+    color: black; 
+    font-size: 14px; 
+    position: relative;
+    left: 6%;
+}
+.vocabulary-container {
+    display: flex; 
+    align-items: center;
+    max-width:800px;
+    margin:0 auto; 
+}
+
+
+.vocabulary-box {
+    background-color:white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid darkblue;
+    width: 200px;
+    height: 100px;
+}
+
+
+
+.vocabulary-image {
+    position: relative;
+    left: 50%;
+    top: 250px;
+}
+.dictionary-heading {
+    color: black;
+    font-size: 18px;
+    position: relative;
+    left: 600px;
+    top: -100px;
+}
+
+.dictionary-paragraph {
+    color: black;
+    font-size: 1rem;
+    justify-content: center;
+    position: relative;
+    left: 580px;
+    top: -100px;
+    
+}
+footer {
+    background-color: white;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.dictionary-paragraph {
+    margin-bottom: 20px;
+}
+
+.learn-more-button {
+    display: inline-block;
+    background-color:darkblue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: right;
+}
+
+.learn-more-button:hover {
+    background-color:darkblue;
+}
+
+.arrow {
+    margin-left: 10px;
+}
+
+
+
+
+
