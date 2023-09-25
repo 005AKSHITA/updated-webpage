@@ -1,18 +1,20 @@
+* {
+    box-sizing: border-box;
+}
 body {
     height: 100vh;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
-.navbar {
+.navbar{
     background-color:darkblue;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    margin-right: 10px;
 }
 
 .navbar ul {
@@ -123,12 +125,14 @@ body {
 }
 .light{
     background-color: lightblue;
+    margin-bottom:-200px;
 }
 
 .looking-for {
     color:white;
     font-size: 16px;
     margin-left: 100px;
+    font-style:italic;
 }
 .headings {
     text-align: left;
@@ -139,16 +143,20 @@ body {
     justify-content: space-between;
     background-color: lightblue;
     padding: 20px;
-    margin-top: -60px;
-}
+    margin:0;
+    border-radius: 30px;
+    
 
+}
 .box {
     flex: 0.9;
-    padding: 20px;
+    padding: 40 px;
     text-align: center;
-    margin:0 10px;
+    margin:0  10px;
     border-radius: 30px;
 }
+
+
 
 .light-purple {
     background-color:lightskyblue;
@@ -191,42 +199,27 @@ body {
     font-weight: bold;
     color:darkgreen;
 }
-everyone-heading {
+.everyone-heading {
     background-color: lightblue;
-    color: white;
     text-align: center;
     padding: 10px;
     border-radius: 10px;
     margin-top: 20px;
-}
-everyone-box {
-    background-color: lightblue;
-    text-align: center;
-    border-radius: 10px;
-    display: inline-block; /* Display as an inline block */
-    padding: 5px 10px; /* Adjust padding to make it smaller */
-    margin-top: 10px; /* Adjust margin as needed */
-    
+    left:760px;
 }
 
 
-.everyone-heading {
-    color: lightblue;
-    font-size: 16px;
-    margin: 0 10px;
-    text-align: center;
-    background-color: white;
-}
+
+
 .white{
     background-color: white;
+    margin-bottom: -100px;
 
 }
 .dark{
     background-color: darkblue;
 }
-.light{
-    background-color: lightblue;
-}
+
 .left-box {
     background-color: white;
     border-radius: 10px;
@@ -236,17 +229,6 @@ everyone-box {
 }
 
 
-.vocabulary-box {
-    background-color: white; /* Background color for the Vocabulary box */
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 20px;
-    width:200px;
-    height:150px;
-    border:2px solid darkblue;
-    margin-left: 10px;
-}
 
 
 .vocabulary-heading {
@@ -270,29 +252,22 @@ everyone-box {
 }
 
 
-.vocabulary-box {
-    background-color:white;
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 10px;
-    border: 2px solid darkblue;
-    width: 200px;
-    height: 100px;
-}
 
 
 
-.vocabulary-image {
+
+
+.vocabulary-img {
     position: relative;
-    left: 50%;
-    top: 250px;
+    left: 450px;
+    top: 100px;
 }
 .dictionary-heading {
     color: black;
     font-size: 18px;
     position: relative;
     left: 600px;
-    top: -100px;
+    top: -20px;
 }
 
 .dictionary-paragraph {
@@ -301,17 +276,17 @@ everyone-box {
     justify-content: center;
     position: relative;
     left: 580px;
-    top: -100px;
+    top: -35px;
     
 }
 footer {
     background-color: white;
     color: white;
-    text-align: center;
+    text-align: right;
     padding: 20px;
+    margin-top:-50px;
 }
-
-.dictionary-paragraph {
+.dictionary-paragraph { 
     margin-bottom: 20px;
 }
 
@@ -324,6 +299,8 @@ footer {
     text-decoration: none;
     font-weight: bold;
     text-align: right;
+    margin-right:220px;
+    margin-top: 30px;
 }
 
 .learn-more-button:hover {
@@ -333,8 +310,57 @@ footer {
 .arrow {
     margin-left: 10px;
 }
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    grid-gap: 20px; /* Gap between columns */
+    max-width: 800px; /* Limit the container width */
+    margin: 0 auto; /* Center the container horizontally */
+}
 
+.left-section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
 
+.right-section {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    grid-column:1/1px;
+    justify-self:start;
+    margin-left:-400px;
+    margin-top:-100px;
+    
+}
+.vocabulary-box {
+    background-color: white; /* Background color for the Vocabulary box */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 200px;
+    height: 150px;
+    border: 2px solid darkblue;
+    margin-left: 10px;
+}
+.everyone-box{
+    background-color: lightblue;
 
-
+    padding: 2px;
+    border-radius: 100px;
+    text-align: right;
+    margin-top: 20px;
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: 20px; /* Adjust margin-right to shift the box to the right */
+    display: inline-block;
+    left:800px; 
+    width:50;
+    height: 80px;
+    position:relative;
+    
+}
+.everyone-heading{
+    color:darkblue;
+}
 
