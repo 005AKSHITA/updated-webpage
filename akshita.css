@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.navbar {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+/* Login and Sign Up button styles */
+.login-button {
+    background-color: #000;
+}
+
+.signup-button {
+    background-color: #00ff00;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px; /* Add spacing between the buttons and the heading */
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #333; /* Change the text color */
+}
+.search-bar {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-text {
+    margin-right: 10px;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 70%;
+    max-width: 400px;
+}
+
+
+.search-headings {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.search-headings h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 5px 10px;
+}
+.new-section {
+    background-color: #10b7ee; /* Light blue background color */
+    text-align: center;
+    padding: 20px;
+}
+
+.new-section h2 {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #333; /* Text color */
+}
+box {
+    background-color: #fff; /* Default background color for boxes */
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Styles for individual boxes */
+#box1 {
+    background-color: #ff9999; /* Box 1 background color */
+}
+
+#box2 {
+    background-color: #99ff99; /* Box 2 background color */
+}
+
+#box3 {
+    background-color: #9999ff; /* Box 3 background color */
+}
+
+/* Styles for the box headings */
+.box h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Styles for the box paragraphs */
+.box p {
+    font-size: 16px;
+    color: #666;
+}
+.third-section {
+    background-color: #fff; /* White background color */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styles for the grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap: 20px; /* Gap between columns */
+    align-items: center; /* Vertically center items */
+}
+
+/* Styles for the left column */
+.left-column {
+    text-align: center;
+}
+
+/* Styles for the right column */
+.right-column {
+    text-align: center;
+}
+
+/* Styles for the headings in columns */
+.grid-container h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Styles for the paragraphs in columns */
+.grid-container p {
+    font-size: 16px;
+    color: #666;
+}
+.box {
+    background-color: #f0f0f0; /* Light gray background color for the box */
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional box shadow for the box */
+}
+footer {
+    background-color: #fff; /* White background color for the entire footer */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styles for the footer container */
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Styles for the dark blue box */
+.box-1 {
+    background-color: #0000AA; /* Dark blue background color for the box */
+    color: #fff; /* Text color inside the box */
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Styles for "Learn More" text */
+.box-1 p {
+    margin: 0; /* Remove default margin */
+    font-weight: bold;
+}
+
+/* Styles for the arrow icon */
+.box-1 span {
+    margin-left: 10px; /* Add spacing between text and arrow */
+    font-size: 20px;
+}
+
+
+
+
+
+
